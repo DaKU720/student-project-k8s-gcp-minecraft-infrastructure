@@ -38,7 +38,7 @@ kubectl apply -f ../k8s/minecraft.yaml
 kubectl get service minecraft-lb
 
 # Check if the port is open
-python3 ../scripts/check_server.py 34.118.121.102
+python3 ../scripts/check_server.py <EXTERNAL_IP>
 ```
 
 
